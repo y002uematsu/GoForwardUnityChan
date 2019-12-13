@@ -26,8 +26,8 @@ public class CubeController : MonoBehaviour {
 		if (collision.gameObject.tag == "groundTag" || collision.gameObject.tag == "CubeTag") {
 			this.audioSource.PlayOneShot (Block);
 		}
-		if (collision.gameObject.tag == "UnityChanTag") {
+		/*if (collision.gameObject.tag == "UnityChanTag") {
 			this.audioSource.volume = 0;
-		}
+		}*/
 	}
 }
